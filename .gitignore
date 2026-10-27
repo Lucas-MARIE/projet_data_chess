@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Zip file
+lichess_games.pgn.zst
