@@ -1,0 +1,21 @@
+[project]
+name = "projet-data-chess"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Lucas-MARIE", email = "lucasmariepro1@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.1.0",
+    "python-chess>=1.999",
+    "zstandard>=0.25.0",
+]
+
+[project.scripts]
+projet-data-chess = "projet_data_chess:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
